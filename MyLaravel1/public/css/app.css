@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* a {
+  color: #000;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: pink;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+}
+
+body .container .links a {
+  display: block;
+  margin: 20px auto;
+}
+
+body .container .main-container h2 {
+  margin: 20px auto;
+}
+
+body .container .main-container ul {
+  height: 270px;
+  overflow-y: scroll;
+}
+
+body .container .main-container ul li {
+  margin: 15px auto;
+}
+
+body .container form .form-group {
+  margin: 10px auto;
+}
+
+body .container form .submit-button {
+  text-align: center;
+}
+

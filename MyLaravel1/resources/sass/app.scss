@@ -1,0 +1,59 @@
+//
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  & a {
+    color: #000;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: pink;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+
+    .links {
+
+      a {
+        display: block;
+        margin: 20px auto;
+      }
+    }
+
+    .main-container {
+      h2 {
+        margin: 20px auto;
+      }
+
+      ul {
+        height: 270px;
+        overflow-y: scroll;
+
+        li {
+          margin: 15px auto;
+
+        }
+      }
+    }
+
+    form {
+      .form-group {
+        margin: 10px auto;
+      }
+
+      .submit-button {
+        text-align: center;
+      }
+    }
+  }
+}
