@@ -21,5 +21,8 @@
           {{$ospite -> document_number}}
         </li>
     </ul>
+    <div class="links">
+      <a href="{{route('ospiti-index')}}">INDEX OSPITI</a>
+    </div>
   </div>
 @endsection

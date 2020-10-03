@@ -12,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: pink;
+  text-align: center;
 }
 
 body .container {
@@ -35,10 +36,15 @@ body .container .main-container h2 {
 body .container .main-container ul {
   height: 270px;
   overflow-y: scroll;
+  text-align: left;
 }
 
 body .container .main-container ul li {
   margin: 15px auto;
+}
+
+body .container form {
+  text-align: left;
 }
 
 body .container form .form-group {
